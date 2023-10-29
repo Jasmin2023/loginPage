@@ -1,0 +1,48 @@
+body {
+  background-color: #fff;
+  box-sizing: border-box; }
+
+.loginFormSection {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-top: 5%; }
+
+.btn-primary {
+  background-color: gray !important;
+  border: 0 !important; }
+
+.loggedIn {
+  height: 500px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px; }
+
+.error {
+  text-transform: uppercase;
+  color: red; }
+
+.pageHeader {
+  width: 100%;
+  height: 90px;
+  background-color: lightgray; }
+  .pageHeaderInner {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px; }
+  .pageHeaderLogo {
+    align-self: center; }
+    .pageHeaderLogo img {
+      max-width: 50px;
+      border-radius: 50%; }
+  .pageHeaderLogoutLink {
+    align-self: center;
+    text-decoration: none;
+    color: #000; }
+    .pageHeaderLogoutLink:hover {
+      text-decoration: underline; }
